@@ -1,0 +1,140 @@
+.te {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    padding: 2px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    transform: translate(-50%,0);
+    min-width: 80px;
+    font-size: 13px;
+}
+.to {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    position: absolute;
+    display: inline-block;
+    top: -25px;
+    padding: 5px;
+    //font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    //border: 1px solid grey;
+    transform: translate(-50%,0);
+}
+.startDate {
+    position: absolute;
+    display: inline-block;
+    top: 55px;
+    padding: 2px;
+    transform: translate(-50%,0) translate(-5px,0);
+    min-width: 80px;
+    font-size: 11px;
+}
+.endDate {
+    position: absolute;
+    display: inline-block;
+    top: 55px;
+    padding: 2px;
+    transform: translate(-50%,0) translate(52px,0);
+    min-width: 80px;
+    font-size: 11px;
+}
+.startDateU {
+    position: absolute;
+    display: inline-block;
+    top: -30px;
+    padding: 2px;
+    transform: translate(-50%,0) translate(-5px,0);
+    min-width: 80px;
+    font-size: 11px;
+}
+.endDateU {
+    position: absolute;
+    display: inline-block;
+    top: -30px;
+    padding: 2px;
+    transform: translate(-50%,0) translate(52px,0);
+    min-width: 80px;
+    font-size: 11px;
+}
+.eventbox {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.eventbox::before {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        content: '';
+        position: absolute;
+        top: 19px;
+        transform: translate(-7.5px,0);
+        border-color: transparent transparent red transparent;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid gray;
+        border-top: 5px solid transparent;
+}
+.unknown {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.type6 {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 20px solid lightgray;
+    transform: translate(-10.5px,0);
+    position: absolute;
+    display: inline-block;
+    top: -40px;
+}
+.type12 {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid lightgrey;
+    transform: translate(-17.5px,0);
+    position: absolute;
+    display: inline-block;
+    top: -40px;
+}
+.type24 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid lightgrey;
+    transform: translate(-25.5px,0);
+    position: absolute;
+    display: inline-block;
+    top: -40px;
+}
+.et {
+    position: absolute;
+    top: -35px;
+    display: inline-block;
+    transform: translate(-50%,0);
+    font-size: 9pt;
+    white-space: nowrap;
+    color: grey;
+}
+.bordergreen {
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px green;
+}
+.borderorange {
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px orange;
+}
+.borderunknown {
+    box-shadow: 0px 0px 5px red;
+}

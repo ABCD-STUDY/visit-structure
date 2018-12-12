@@ -14,7 +14,6 @@ All the data for the three views are generated from information about the visit 
 
 ## Visit structure by site
 
-In order to get an overview of the missed visits by data collection site the following story-mode display is used.
-
+In order to get an overview of the missed visits by data collection site the following story-mode display is used. Each block on the left represents a participants with missed visits. The visits are displayed as vertical blocks connected by red participant lines. Different colors are used to indicate if a participant is withdrawn (black) or part of a substudy (green). This display allows for a comparisson between sites about the amount of missingness and about pattern of missingness at sites.
 
 ![story mode missed visits](https://raw.githubusercontent.com/ABCD-STUDY/visit-structure/master/images/story-mode.png)
